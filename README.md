@@ -1,0 +1,1 @@
+A Java-based console application that simulates Swiggy’s food ordering system. Users can browse restaurants, view menus, place orders, and generate bills. Built with object-oriented programming principles, it serves as a foundation for advanced food delivery platforms.
