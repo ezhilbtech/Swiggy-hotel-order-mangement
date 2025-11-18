@@ -404,7 +404,7 @@ public class Swiggy_order {
 	public static void payment()
 	{
 		System.out.println(" Payment Methods");
-		System.out.println(" 1.Gpay   \n 2.Paytm   \n 3.Phonepe");
+		System.out.println(" 1.Gpay   \n 2.Paytm   \n 3.Phonepe  \n 4.exit");
 		System.out.println(" Enter the Payment Method Number:");
 		pay_num=sc.nextInt();
 		switch(pay_num)
@@ -479,6 +479,9 @@ public class Swiggy_order {
 				}
 				break;
 				
+		case 4: hotel();
+				break;
+				
 		default: System.out.println(" Enter the correct Option:");
 				 payment();
 				
@@ -511,10 +514,7 @@ public class Swiggy_order {
 				count++;
 				if(count>2)
 				{
-					food.clear();
-					food_name.clear();
-					total=0;
-					hotel();
+					payment();
 				}
 				else
 				{
